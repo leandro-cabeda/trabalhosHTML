@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/parte4.css">
+	<script type="text/javascript" src="../js/projetofinal.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/parte4-jquery.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+
+
+</head>
+<body>
+<div id="inicio">
+<div id="p1">
+<h2>Faça seu Cadastro para Realizar as Compras no nosso Site</h2>
+<h4>Por favor preencha o formulário abaixo e clique em cadastrar.</h4>
+</div>
+
+
+<div id="op">
+<nav id="menu">
+ <ul>
+	 <li><a href="../projetofinal.html">Home</a></li>
+	 <li><a href="../html/parte1.html">Empresa</a></li>
+	 <li><a href="../html/parte2.html">Serviços</a></li>
+	 <li><a href="../html/parte3.html">Produtos</a></li>
+	 <li><a href="parte4.html">Cadastro</a></li>
+	 <li><a href="../html/parte5.html">Fale Conosco</a></li>
+ </ul>
+</nav>
+
+</div>
+	
+</div>
+<div id="meio">
+<div id="m1">
+	<h2 id="tex"><marquee style="font-family: arial;" behavior="scroll" scrollamount="45">FORMULÁRIO DE CADASTRO</marquee></h2>
+</div>
+<div id="m2">
+<form id="me" name="form" method="POST">
+	<label class="dados">Nome:* </label> 
+	<label class="dad"><input class="da" type="text" name="nome" placeholder="  Digite seu nome" maxlength="57" width="40" size="30" style="height:25px"></label>&emsp;&emsp;&emsp;&emsp;&emsp;
+	<label class="dados">Sobrenome:* </label>
+	<label class="dados"><input class="da" type="text" name="sobrenome" placeholder="  Digite seu sobrenome" maxlength="57" width="40" size="30" style="height:25px"></label>
+	<p id="tip"><label id="tipo">Tipo de Cartão Cadastrar:</label></p>
+	<p id="fot"><img class="igg" src="../img/visa.jpg">&emsp;&emsp;&emsp;<img class="igg" src="../img/mastercard.jpg">&emsp;&emsp;&emsp;<label class="dados">Número do Cartão:*</label>&emsp;<input class="da" name="numero" type="numeric"  placeholder="  xxxx-xxxx-xxxxxx-xxx" maxlength="60" width="35" size="25" style="height:25px">&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">Sexo:</label>&emsp;&ensp;<label class="dados">Masculino</label>&ensp;<input type="radio" name="masculino" value="primeiro" checked="checked">&emsp;&ensp;<label class="dados">Feminino</label>&ensp;<input type="radio" name="feminino" value="segundo"></p>
+	<p id="rad">&emsp;<input type="radio" name="cartao" value="primeiro" checked="checked">&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type="radio" name="cartao" value="segundo"></p>
+	<p class="dados">Data de Nascimento:*&emsp;&emsp;&emsp;&emsp;<label class="dados">Telefone:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">Celular:*</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">RG:*</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">CPF:*</label></p>
+	<p class="dad"><input class="da" type="date" id="datn" name="nasc" placeholder="  xx/xx/xxxx" maxlength="50" width="25" size="20" style="height:25px">&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;<input class="da" name="tel" type="tel" placeholder="  (xx)xxxxx-xxxx" maxlength="50" width="25" size="20" style="height:25px">&emsp;&emsp;&emsp;&ensp;<input class="da" name="cel" type="tel" placeholder="  (xx)xxxxx-xxxx" maxlength="50" width="25" size="20" style="height:25px">&emsp;&emsp;&emsp;&ensp;<input class="da" name="rg" type="numeric" placeholder="  xxxxxxxxxx" maxlength="50" width="25" size="20" style="height:25px">&emsp;&emsp;&emsp;<input class="da" name="cpf" type="text" pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$" placeholder="  xxx.xxx.xxx-xx" maxlength="50" width="25" size="20" style="height:25px"/></p>
+	<p class="dados tpp">E-mail:*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">Endereço:*</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">UF:*</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="dados">Cidade:*</label></p>
+	<p class="dad"><input class="da" type="E-mail" name="email" placeholder="  @e-mail" maxlength="45" width="35" size="30" style="height:25px">&emsp;&emsp;&emsp;&emsp;<input class="da" type="tex" name="endereco" placeholder="   Digite seu endereço..." maxlength="55" width="40" size="35" style="height:25px">&emsp;&emsp;&ensp;&emsp;&emsp;&ensp;
+	<select class="da selc" id="uff" style="width:140px" name="UF" onclick="trocar();">
+	<option class="da">-------Selecione------</option>
+	<option class="da">Rio Grande do Sul</option>
+	<option class="da">Santa Catarina</option>
+	<option class="da">Parana</option>
+	<option class="da">São Paulo</option>
+	</select>&emsp;&emsp;&emsp;&emsp;&ensp;
+	<select class="da selc" id="sdf" style="width:140px" name="cidade" disabled="disabled">
+	<option class="da">-------Selecione-------</option>
+	<option class="da">Marau</option>
+	<option class="da">Passo Fundo</option>
+	<option class="da">Carazinho</option>
+	<option class="da">Caxias do Sul</option>
+	<option class="da">Florianopólis</option>
+	<option class="da">Tubarão</option>
+	<option class="da">Morros dos Conventos</option>
+	<option class="da">Sombrio</option>
+	<option class="da">Curitiba</option>
+	<option class="da">São Paulo</option>
+	<option class="da">Criciúma</option>
+	</select>
+	</p>
+	<p class="dados tpp">Cep:*</p>
+	<p class="dados"><input class="da" type="numeric" placeholder="  xxxxx-xxx" maxlength="50" width="25" size="20" style="height:25px"  name="cep"></p>
+	<p class="dados tpp">Senha:*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Confirmar Senha:*</p>
+	<p class="dad"><input class="da" type="password" name="senha" placeholder="  Digite uma senha" maxlength="45" width="35" size="30" style="height:25px">&emsp;&emsp;&emsp;&emsp;&ensp;
+	<input class="da" type="password" name="confsenha" placeholder="  Confirma a senha" maxlength="45" width="35" size="30" style="height:25px"></p>
+	<p class="dados tpp">Observações:</p>
+	<p class="dad"><textarea class="da" name="texto" placeholder="   Escreva alguma observação do seu interesse..." rows="9" cols="55" maxlength="500"></textarea></p>
+	<p class="dad tpp"><input class="cli" type="submit" name="enviar" value="Cadastrar" onclick="cadastrar();">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input class="cli" type="reset" name="limpar" value="Limpar" onclick="resete();"></p>
+</form>
+</div>
+
+</div>
+	
+<div id="rodape">
+<div id="com">
+<h2 id="aten"><marquee id="yy" style="font-family: arial;" behavior="scroll" scrollamount="5">Qualquer problema pode entrar em contato pelo email abaixo ou pelas redes sociais, e também pode nos enviar pelo fale conosco e nos mande uma mensagem. Aguardamos:</marquee></h2>
+
+<figure id="res">
+	<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fleandro.cabeda&width=200&height=80&layout=standard&size=small&show_faces=true&appId" width="200" height="80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	<a href="https://twitter.com/LeandroCabeda" target="_blank"><img src="../img/info17.jpg"></a>
+	<a href="https://br.linkedin.com/in/leandro-cabeda-rigo-b82b2678" target="_blank"><img src="../img/info18.jpg"></a>
+</figure>
+<h3 id="hh3">leandro.cabeda@hotmail.com</h3>
+<h4 class="av">@cabedainfomatica - Todos os direitos reservados</h4>
+<h4 class="av">Passo Fundo - RS</h4>
+	
+</div>
+	
+</div>
+
+</body>
+</html>

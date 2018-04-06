@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/parte3.css">
+	<script type="text/javascript" src="../js/projetofinal.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/parte3-jquery.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<div id="inicio">
+<div id="p1">
+<img src="..\img\info26.jpg"/>
+</div>
+
+<div id="wf">
+<img id="em" src="..\img\info27.jpg"/>
+	
+</div>
+<div id="op">
+<nav id="menu">
+ <ul>
+	 <li><a href="../projetofinal.html">Home</a></li>
+	 <li><a href="../html/parte1.html">Empresa</a></li>
+	 <li><a href="../html/parte2.html">Serviços</a></li>
+	 <li><a href="parte3.html">Produtos</a></li>
+	 <li><a href="../html/parte4.html">Cadastro</a></li>
+	 <li><a href="../html/parte5.html">Fale Conosco</a></li>
+ </ul>
+</nav>
+
+</div>
+	
+</div>
+<div id="meio">
+	<div id="men">
+	<ul>
+	 <li><a href="parte3.html">Ofertas Especiais</a></li>
+	 <li><a href="parte3-2.html">Gabinete</a></li>
+	 <li><a href="parte3-3.html">Placa de Video</a></li>
+	 <li><a href="parte3-4.html">Memória</a></li>
+	 <li><a href="parte3-5.html">Disco rigido</a></li>
+	 <li><a href="parte3-6.html">Notebooks</a></li>
+	 <li><a href="parte3-7.html">Smarthphones</a></li>
+	 <li><a href="parte3-8.html">Processadores</a></li>
+	 <li><a href="parte3-9.html">Placa Mãe</a></li>
+	 <li><a href="parte3-10.html">Diversos</a></li>
+ </ul>
+
+	</div>
+	<div id="prod">
+		<ul>
+			<li class="pr1"><img src="../img/info28.jpg"><p id="vat">645,00</p><h3>Informação do Produto</h3>
+			<figcaption>Processador Intel Core i5-6400 Skylake, Cache 6MB, 2.7Ghz (3.3Ghz Max Turbo), LGA 1151, Intel HD Graphics 530 BX80662I56400. (Preço:
+			R$ 645,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 75,90)</figcaption><input type="number" id="nn" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info29.jpg"><p id="vat2">262,00</p><h3>Informação do Produto</h3>
+			<figcaption>Gabinete X-Trike Bi-Turbo sem Fonte 636B Preto. (Preço:R$ 262,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 30,90)</figcaption><input type="number" id="nn2" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val2();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info30.jpg"><p id="vat3">822,00</p><h3>Informação do Produto</h3>
+			<figcaption>Placa de Video VGA Zotac Geforce GTX 970 4GB GDDR5 256-bit 3D Ready 4K Ready PCI-Express 3.0 ZT-90101-10P. (Preço:R$ 822,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 97,50)</figcaption><input type="number" id="nn3" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val3();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info31.jpg"><p id="vat4">92,00</p><h3>Informação do Produto</h3>
+			<figcaption>Memória Kingston HyperX FURY 4GB 1866Mhz DDR3 CL10 Black Series - HX318C10FB/4. (Preço:R$ 92,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 10,90)</figcaption><input type="number" id="nn4" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val4();">Adicionar</button></li>
+		</ul>
+	
+	</div>
+	<div id="prod2">
+	<ul>
+			<li class="pr1"><img src="../img/info32.jpg"><p id="vat5">199,00</p><h3>Informação do Produto</h3>
+			<figcaption>HD WD SATA 3,5´ Blue PC 1TB 7200RPM 64MB Cache SATA 6.0Gb/s - WD10EZEX. (Preço:R$ 199,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 23,40)</figcaption><input type="number" id="nn5" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val5();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info33.jpg"><p id="vat6">1503,00</p><h3>Informação do Produto</h3>
+			<figcaption>Notebook Hp 240 G4, Intel Core I3, 4GB, 500GB, Tela 14´, DDR3, USB 3.0/2.0, Windows 10, Preto - P7Q07LT AC4. (Preço:R$ 1.503,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 176,90)</figcaption><input type="number" id="nn6" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val6();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info34.jpg"><p id="vat7">483,00</p><h3>Informação do Produto</h3>
+			<figcaption>Smartphone Samsung Galaxy J3 SM-J320M/DS, Quad Core 1.5 Ghz, Android 5.1, Tela de 5, 8GB, 8 MP, 4G, Dual Chip, Desbloqueado - Preto. (Preço:R$ 483,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 56,90)</figcaption><input type="number" id="nn7" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val7();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info35.jpg"><p id="vat8">314,00</p><h3>Informação do Produto</h3>
+			<figcaption>Placa-Mãe ASUS p/ Intel LGA 1150 mATX B85M-E/BR,  4xDDR3 DP/HDMI/DVI/VGA, USB 3.0 Boost, PCIe-X16, CrossfireX, SATA  6GB/s. (Preço:R$ 314,00 À VISTA COM 15% DE DESCONTO NO CARTÃO
+			OU EM 10X DE R$ 37,00)</figcaption><input type="number" id="nn8" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val8();">Adicionar</button></li>
+
+
+	</ul>
+		
+	</div>
+	<div id="val">
+		<div class="der">
+			<h2 id="valor">Valor Final: </h2>
+			<h2 id="valor2"></h2>
+		</div>
+		<div class="der">
+			<p id="ioo"><button id="bot" name="comprar" onclick="confirma();">Comprar</button></p>
+		</div>
+	</div>
+
+</div>
+	
+<div id="rodape">
+<div class="com">
+<h2 id="aten"><marquee style="font-family: arial;" behavior="scroll" scrollamount="5">Qualquer problema pode entrar em contato pelo email abaixo ou pelas redes sociais, e também pode nos enviar pelo fale conosco e nos mande uma mensagem. Aguardamos:</marquee></h2>
+
+<figure id="res">
+	<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fleandro.cabeda&width=200&height=80&layout=standard&size=small&show_faces=true&appId" width="200" height="80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	<a href="https://twitter.com/LeandroCabeda" target="_blank"><img id="img28" src="../img/info17.jpg"></a>
+	<a href="https://br.linkedin.com/in/leandro-cabeda-rigo-b82b2678" target="_blank"><img src="../img/info18.jpg"></a>
+</figure>
+<h3 id="hh3">leandro.cabeda@hotmail.com</h3>
+<h4 class="av">@cabedainfomatica - Todos os direitos reservados</h4>
+<h4 class="av">Passo Fundo - RS</h4>
+	
+</div>
+<div class="com">
+<h2 id="tex"><marquee style="font-family: arial;" behavior="scroll" scrollamount="4">Se caso precisar tirar uma dúvida ou comentar mande pelo campo abaixo:</marquee></h2>
+<form id="me" name="form" method="POST">
+	<p class="dados">Nome:*</p>
+	<p class="dad"><input class="da" type="text" placeholder="   Digite seu nome" name="nome" maxlength="77" width="50" size="50" style="height:25px"></p>
+	<p class="dados">E-mail:*</p>
+	<p class="dad"><input class="da" type="E-mail" placeholder="   Digite seu e-mail" name="email" maxlength="77" width="50" size="50" style="height:25px"></p>
+	<p class="dados">Descrição:*</p>
+	<p class="dad"><textarea class="da" name="texto" rows="3" cols="70" maxlength="500" placeholder="    Escreva aqui alguma opinião..."></textarea></p>
+	<p class="dad"><input class="cli" type="submit" name="enviar" value="Enviar" onclick="validar();">&emsp;&emsp;
+	<input class="cli" type="reset" name="limpar" value="Limpar" onclick="resetar();">
+	</p>
+</form>
+	
+</div>
+	
+</div>
+
+</body>
+</html>

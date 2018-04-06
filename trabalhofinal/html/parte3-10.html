@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/parte3.css">
+	<script type="text/javascript" src="../js/projetofinal.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/parte3-jquery.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<div id="inicio">
+<div id="p1">
+<img src="..\img\info26.jpg"/>
+</div>
+
+<div id="wf">
+<img id="em" src="..\img\info27.jpg"/>
+	
+</div>
+<div id="op">
+<nav id="menu">
+ <ul>
+	 <li><a href="../projetofinal.html">Home</a></li>
+	 <li><a href="../html/parte1.html">Empresa</a></li>
+	 <li><a href="../html/parte2.html">Serviços</a></li>
+	 <li><a href="parte3.html">Produtos</a></li>
+	 <li><a href="../html/parte4.html">Cadastro</a></li>
+	 <li><a href="../html/parte5.html">Fale Conosco</a></li>
+ </ul>
+</nav>
+
+</div>
+	
+</div>
+<div id="meio">
+	<div id="men">
+	<ul>
+	 <li><a href="parte3.html">Ofertas Especiais</a></li>
+	 <li><a href="parte3-2.html">Gabinete</a></li>
+	 <li><a href="parte3-3.html">Placa de Video</a></li>
+	 <li><a href="parte3-4.html">Memória</a></li>
+	 <li><a href="parte3-5.html">Disco rigido</a></li>
+	 <li><a href="parte3-6.html">Notebooks</a></li>
+	 <li><a href="parte3-7.html">Smarthphones</a></li>
+	 <li><a href="parte3-8.html">Processadores</a></li>
+	 <li><a href="parte3-9.html">Placa Mãe</a></li>
+	 <li><a href="parte3-10.html">Diversos</a></li>
+ </ul>
+
+	</div>
+	<div id="prod">
+		<ul>
+			<li class="pr1"><img src="../img/info100.jpg"><p id="vat">23,00</p><h3>Informação do Produto</h3>
+			<figcaption>Mouse Óptico Logitech USB M90 Preto (Preço:R$ 23,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 2,60).
+			</figcaption><input type="number" id="nn" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info101.jpg"><p id="vat2">128,00</p><h3>Informação do Produto</h3>
+			<figcaption>Teclado e Mouse Gamer Multilaser Lightning TC195 (Preço:R$ 128,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 14,70).
+			</figcaption><input type="number" id="nn2" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val2();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info102.jpg"><p id="vat3">12,00</p><h3>Informação do Produto</h3>
+			<figcaption>Pen Drive Kingston USB 2.0 8GB KC-U768G-4CR - Vermelho (Preço:R$ 12,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 1,40).
+			</figcaption><input type="number" id="nn3" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val3();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info103.jpg"><p id="vat4">213,00</p><h3>Informação do Produto</h3>
+			<figcaption>SSD Kingston 2.5´ 120GB UV400 SATA III Leituras: 550MBs / Gravações: 350MBs (Preço:R$ 213,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 24,50).
+			</figcaption><input type="number" id="nn4" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val4();">Adicionar</button></li>
+		</ul>
+	
+	</div>
+	<div id="prod2">
+	<ul>
+			<li class="pr1"><img src="../img/info104.jpg"><p id="vat5">98,00</p><h3>Informação do Produto</h3>
+			<figcaption>Base para Notebook Multilaser Hexa com Cooler até 17´ AC282 (Preço:R$ 98,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 11,25).
+			</figcaption><input type="number" id="nn5" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val5();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info105.jpg"><p id="vat6">291,00</p><h3>Informação do Produto</h3>
+			<figcaption>WebCam Logitech C920 Pro HD 15MP Full HD1080p (Preço:R$ 291,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 33,45).
+			</figcaption><input type="number" id="nn6" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val6();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info106.jpg"><p id="vat7">157,00</p><h3>Informação do Produto</h3>
+			<figcaption>Fone de Ouvido AKG - K414P 36724  (Preço:R$ 157,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 18,00).
+			</figcaption><input type="number" id="nn7" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val7();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info107.jpg"><p id="vat8">277,00</p><h3>Informação do Produto</h3>
+			<figcaption>SSD Kingston HyperX Fury 2.5´ 120GB SATA III 6Gb/s Leitura/Gravação Máxima até 4K - SHFS37A/120G (Preço:R$ 277,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 31,80).
+			</figcaption><input type="number" id="nn8" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val8();">Adicionar</button></li>
+
+
+	</ul>
+		
+	</div>
+	<div id="val">
+		<div class="der">
+			<h2 id="valor">Valor Final: </h2>
+			<h2 id="valor2"></h2>
+		</div>
+		<div class="der">
+			<p id="ioo"><button id="bot" name="comprar" onclick="confirma();">Comprar</button></p>
+		</div>
+	</div>
+
+</div>
+	
+<div id="rodape">
+<div class="com">
+<h2 id="aten"><marquee style="font-family: arial;" behavior="scroll" scrollamount="5">Qualquer problema pode entrar em contato pelo email abaixo ou pelas redes sociais, e também pode nos enviar pelo fale conosco e nos mande uma mensagem. Aguardamos:</marquee></h2>
+
+<figure id="res">
+	<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fleandro.cabeda&width=200&height=80&layout=standard&size=small&show_faces=true&appId" width="200" height="80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	<a href="https://twitter.com/LeandroCabeda" target="_blank"><img id="img28" src="../img/info17.jpg"></a>
+	<a href="https://br.linkedin.com/in/leandro-cabeda-rigo-b82b2678" target="_blank"><img src="../img/info18.jpg"></a>
+</figure>
+<h3 id="hh3">leandro.cabeda@hotmail.com</h3>
+<h4 class="av">@cabedainfomatica - Todos os direitos reservados</h4>
+<h4 class="av">Passo Fundo - RS</h4>
+	
+</div>
+<div class="com">
+<h2 id="tex"><marquee style="font-family: arial;" behavior="scroll" scrollamount="4">Se caso precisar tirar uma dúvida ou comentar mande pelo campo abaixo:</marquee></h2>
+<form id="me" name="form" method="POST">
+	<p class="dados">Nome:*</p>
+	<p class="dad"><input class="da" type="text" placeholder="   Digite seu nome" name="nome" maxlength="77" width="50" size="50" style="height:25px"></p>
+	<p class="dados">E-mail:*</p>
+	<p class="dad"><input class="da" type="E-mail" placeholder="   Digite seu e-mail" name="email" maxlength="77" width="50" size="50" style="height:25px"></p>
+	<p class="dados">Descrição:*</p>
+	<p class="dad"><textarea class="da" name="texto" rows="3" cols="70" maxlength="500" placeholder="    Escreva aqui alguma opinião..."></textarea></p>
+	<p class="dad"><input class="cli" type="submit" name="enviar" value="Enviar" onclick="validar();">&emsp;&emsp;
+	<input class="cli" type="reset" name="limpar" value="Limpar" onclick="resetar();">
+	</p>
+</form>
+	
+</div>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #FFA07A;
+}
+
+#inicio{
+
+	width: 1300px;
+	height: 450px;
+	margin: auto;
+}
+
+#p1{
+	width: 450px;
+	height: 450px;
+	float: left;
+}
+
+#p1 img{
+	width: 450px;
+	height:450px;
+}
+
+#wf{
+		height: 395px;
+	margin: auto;
+}
+
+
+#em{
+	width: 850px;
+	height: 395px;
+	margin: auto;
+}
+
+#wf img{
+	width: 850px;
+	height: 395px;
+	margin: auto;
+	background: #828282;
+}
+
+#op{
+	width: 850px;
+	height: 55px;
+	margin: auto;
+	float:right;
+	background: #8B4513;
+}
+
+#menu ul li{
+ 	padding-left: 18px;
+	padding-right: 14px;
+	float:left;
+	display: inline-block;
+	padding-top: 12px;
+	background: #8B4513;
+}
+
+#menu ul li a{
+ 	text-decoration: none;
+ 	font-size: 16pt;
+ 	font-family: verdana;
+ 	color: #90EE90;
+ 	font-weight: bold;
+ 	background: #8B4513;
+ }
+#menu ul li a:hover{
+	color: #00008B;
+}
+
+#menu ul li a:active{
+	color: #FF7F00;
+}
+
+#meio{
+	width: 1300px;
+	height: 500px;
+	margin: auto;
+	clear: right;
+	clear: left;
+}
+
+#servi{
+	width: 1300px;
+	height: 100px;
+	text-align: center;
+	margin: auto;
+	background-color: #008B8B;
+}
+
+#servi h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 35px;
+	color: black;
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	background-color: #008B8B;
+}
+
+#servi2{
+	width: 1300px;
+	height: 400px;
+	margin: auto;
+	background-color: #008B8B;
+}
+
+#servi2 ul li{
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 8px;
+	float:left;
+	display: inline-block;
+	list-style: none;
+	background-color: #008B8B;
+	text-align: center;
+	font-size: 17px;
+}
+
+#servi2 ul li img{
+	width: 300px;
+	height: 280px;
+	background-color: #008B8B;
+	border-radius: 25px;
+}
+
+#servi2 ul li figcaption{
+	background-color: #008B8B;
+	color: black;
+}
+
+#rodape{
+	background-color: #FFA500;
+	width: 1300px;
+	height: 300px;
+	margin: auto;
+}
+
+.com{
+	background-color: #FFA500;
+	width: 648px;
+	height: 300px;
+	float: left;
+	margin: auto;
+}
+
+#res{
+	width: 648px;
+	height: 100px;
+	background-color: #FFA500;
+}
+
+#res a{
+	padding-left: 40px;
+	background: #FFA500;
+}
+
+#res iframe{
+	padding-left: 40px;
+	background: #FFA500;
+}
+
+#res img{
+	padding-top: 30px;
+	background-color: #FFA500;
+	width: 100px;
+	height: 100px;
+	list-style: none;
+	border-radius: 10px;
+}
+@keyframes animainfo{
+
+			0% { 
+     			 width: 0px;
+  				}
+
+  			 100% { 
+      					width: 450px;
+   				}
+}
+#hh3{
+	padding-top: 50px;
+	background-color: #FFA500;
+	width: 450px;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	animation-name: animainfo;
+   			animation-duration: 10s;
+   			animation-timing-function: ease;
+   			animation-delay: 1s;
+   			animation-iteration-count: infinite;
+  			 animation-direction: alternate-reverse;
+   			animation-play-state: running;
+}
+
+.av{
+	padding-top: 10px;
+	background-color: #FFA500;
+	font-size: 18px;
+	text-align: center;
+	color: black;
+}
+
+#aten{
+	font-size: 40px;
+	width: 400px;
+	background-color: #FFA500;
+	text-align: center;
+	margin:auto;
+}
+#aten marquee{
+	background-color: #FFA500;
+	color: black;
+}
+#tex{
+	padding-top: 10px;
+	font-size: 25px;
+	width: 400px;
+	background-color: #FFA500;
+	margin:auto;
+}
+#tex marquee{
+	background-color: #FFA500;
+	color: black;
+}
+
+.dados{
+	background-color: #FFA500;
+	color: darkblue;
+	font-size: 20px;
+}
+
+.dad{
+	background-color: #FFA500;
+	font-size: 20px;
+}
+
+.da{
+	background-color: white;
+	font-size: 12px;
+	border-radius: 18px;
+}
+
+.cli{
+	border-radius: 8px;
+	height: 25px;
+	width: 80px;
+	color: white;
+	padding-bottom: 22px;
+	background-color: darkblue;
+
+}
+
+#me{
+	padding-left: 20px;
+	background-color: #FFA500;
+	padding-bottom: 6px;
+
+}
+
+

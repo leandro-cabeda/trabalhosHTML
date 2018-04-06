@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/parte3.css">
+	<script type="text/javascript" src="../js/projetofinal.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/parte3-jquery.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<div id="inicio">
+<div id="p1">
+<img src="..\img\info26.jpg"/>
+</div>
+
+<div id="wf">
+<img id="em" src="..\img\info27.jpg"/>
+	
+</div>
+<div id="op">
+<nav id="menu">
+ <ul>
+	 <li><a href="../projetofinal.html">Home</a></li>
+	 <li><a href="../html/parte1.html">Empresa</a></li>
+	 <li><a href="../html/parte2.html">Serviços</a></li>
+	 <li><a href="parte3.html">Produtos</a></li>
+	 <li><a href="../html/parte4.html">Cadastro</a></li>
+	 <li><a href="../html/parte5.html">Fale Conosco</a></li>
+ </ul>
+</nav>
+
+</div>
+	
+</div>
+<div id="meio">
+	<div id="men">
+	<ul>
+	 <li><a href="parte3.html">Ofertas Especiais</a></li>
+	 <li><a href="parte3-2.html">Gabinete</a></li>
+	 <li><a href="parte3-3.html">Placa de Video</a></li>
+	 <li><a href="parte3-4.html">Memória</a></li>
+	 <li><a href="parte3-5.html">Disco rigido</a></li>
+	 <li><a href="parte3-6.html">Notebooks</a></li>
+	 <li><a href="parte3-7.html">Smarthphones</a></li>
+	 <li><a href="parte3-8.html">Processadores</a></li>
+	 <li><a href="parte3-9.html">Placa Mãe</a></li>
+	 <li><a href="parte3-10.html">Diversos</a></li>
+ </ul>
+
+	</div>
+	<div id="prod">
+		<ul>
+			<li class="pr1"><img src="../img/info68.jpg"><p id="vat">1639,00</p><h3>Informação do Produto</h3>
+			<figcaption>Notebook Positivo Stilo One XC5631 com Intel® Pentium® Quad Core, 4GB, 32GB SSD (Preço:R$ 1.639,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 188,45).
+			</figcaption><input type="number" id="nn" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info69.jpg"><p id="vat2">5329,00</p><h3>Informação do Produto</h3>
+			<figcaption>Notebook Gamer Dell Inspiron I15-7559-A10 com Intel® Core™ i5-6300HQ, 8GB, 1TB (Preço:R$ 5.329,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 612,80).
+			</figcaption><input type="number" id="nn2" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val2();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info70.jpg"><p id="vat3">1989,00</p><h3>Informação do Produto</h3>
+			<figcaption>Notebook 2 em 1 Touch Acer Aspire R3-131T-P7QW com Intel® Pentium® Quad Core, 4GB, 500GB (Preço:R$ 1.989,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 228,70).
+			</figcaption><input type="number" id="nn3" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val3();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info71.jpg"><p id="vat4">4080,00</p><h3>Informação do Produto</h3>
+			<figcaption>Notebook Vaio Fit 15F VJF153B0411W com Intel® Core™ i7-5500U, 8GB, 1TB (Preço:R$ 4080,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 469,20).
+			</figcaption><input type="number" id="nn4" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val4();">Adicionar</button></li>
+		</ul>
+	
+	</div>
+	<div id="prod2">
+	<ul>
+			<li class="pr1"><img src="../img/info72.jpg"><p id="vat5">7399,00</p><h3>Informação do Produto</h3>
+			<figcaption>ASUS Ultrabook UX330UA-FC046T Cinza, Intel Core i5 6200U, Full HD 1080 (Preço:R$ 7399,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 850,90).
+			</figcaption><input type="number" id="nn5" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val5();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info73.jpg"><p id="vat6">1769,00</p><h3>Informação do Produto</h3>
+			<figcaption>ASUS Notebook Z550SA-XX002 Branco Intel Celeron Quad Core N3160  (Preço:R$ 1769,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 203,40).
+			</figcaption><input type="number" id="nn6" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val6();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info74.jpg"><p id="vat7">4859,00</p><h3>Informação do Produto</h3>
+			<figcaption>ASUS Notebook X555UB-BRA-XX298T Preto Intel Core i7 6500U (Preço:R$ 4.859,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 558,70).
+			</figcaption><input type="number" id="nn7" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val7();">Adicionar</button></li>
+
+			<li class="pr1"><img src="../img/info75.jpg"><p id="vat8">1529,00</p><h3>Informação do Produto</h3>
+			<figcaption>ASUS Notebook Z550MA-XX005T Branco Intel® Celeron Quad Core N148 (Preço:R$ 1.529,00 À VISTA COM 15% DE DESCONTO NO CARTÃO OU EM 10X DE R$ 175,80).
+			</figcaption><input type="number" id="nn8" min="1" max="200" step="1" size="50" style="height:25px" placeholder="  Quantidade desejada.." ><button onclick="val8();">Adicionar</button></li>
+
+
+	</ul>
+		
+	</div>
+	<div id="val">
+		<div class="der">
+			<h2 id="valor">Valor Final: </h2>
+			<h2 id="valor2"></h2>
+		</div>
+		<div class="der">
+			<p id="ioo"><button id="bot" name="comprar" onclick="confirma();">Comprar</button></p>
+		</div>
+	</div>
+
+</div>
+	
+<div id="rodape">
+<div class="com">
+<h2 id="aten"><marquee style="font-family: arial;" behavior="scroll" scrollamount="5">Qualquer problema pode entrar em contato pelo email abaixo ou pelas redes sociais, e também pode nos enviar pelo fale conosco e nos mande uma mensagem. Aguardamos:</marquee></h2>
+
+<figure id="res">
+	<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fleandro.cabeda&width=200&height=80&layout=standard&size=small&show_faces=true&appId" width="200" height="80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	<a href="https://twitter.com/LeandroCabeda" target="_blank"><img id="img28" src="../img/info17.jpg"></a>
+	<a href="https://br.linkedin.com/in/leandro-cabeda-rigo-b82b2678" target="_blank"><img src="../img/info18.jpg"></a>
+</figure>
+<h3 id="hh3">leandro.cabeda@hotmail.com</h3>
+<h4 class="av">@cabedainfomatica - Todos os direitos reservados</h4>
+<h4 class="av">Passo Fundo - RS</h4>
+	
+</div>
+<div class="com">
+<h2 id="tex"><marquee style="font-family: arial;" behavior="scroll" scrollamount="4">Se caso precisar tirar uma dúvida ou comentar mande pelo campo abaixo:</marquee></h2>
+<form id="me" name="form" method="POST">
+	<p class="dados">Nome:*</p>
+	<p class="dad"><input class="da" type="text" placeholder="   Digite seu nome" name="nome" maxlength="77" width="50" size="50" style="height:25px"></p>
+	<p class="dados">E-mail:*</p>
+	<p class="dad"><input class="da" type="E-mail" placeholder="   Digite seu e-mail" name="email" maxlength="77" width="50" size="50" style="height:25px"></p>
+	<p class="dados">Descrição:*</p>
+	<p class="dad"><textarea class="da" name="texto" rows="3" cols="70" maxlength="500" placeholder="    Escreva aqui alguma opinião..."></textarea></p>
+	<p class="dad"><input class="cli" type="submit" name="enviar" value="Enviar" onclick="validar();">&emsp;&emsp;
+	<input class="cli" type="reset" name="limpar" value="Limpar" onclick="resetar();">
+	</p>
+</form>
+	
+</div>
+	
+</div>
+
+</body>
+</html>

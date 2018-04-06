@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/parte5.css">
+	<script type="text/javascript" src="../js/parte5.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/parte5-jquery.js"></script>
+
+</head>
+<body>
+<div id="inicio">
+<div id="p1">
+<h2>Fale Conosco caso precisar algum suporte e nos envia uma mensagem</h2>
+</div>
+
+
+<div id="op">
+<nav id="menu">
+ <ul>
+	 <li><a href="../projetofinal.html">Home</a></li>
+	 <li><a href="../html/parte1.html">Empresa</a></li>
+	 <li><a href="../html/parte2.html">Serviços</a></li>
+	 <li><a href="../html/parte3.html">Produtos</a></li>
+	 <li><a href="../html/parte4.html">Cadastro</a></li>
+	 <li><a href="parte5.html">Fale Conosco</a></li>
+ </ul>
+</nav>
+
+</div>
+	
+</div>
+<div id="meio">
+<div id="m1">
+	<h2 id="tex"><marquee style="font-family: arial;" behavior="scroll" scrollamount="2">Fale com a Gente enviando abaixo:</marquee></h2>
+</div>
+<div id="m2">
+<form id="me" name="form" method="POST">
+	<label class="dados">Nome Completo:* </label> 
+	<p class="dad"><input class="da" type="text" name="nome" placeholder="   Digite seu nome completo" maxlength="87" width="70" size="60" style="height:25px"></p>
+	
+	<p class="dados tpp">E-mail:*</p>
+	<p class="dad"><input class="da" type="E-mail" name="email" placeholder="   @e-mail" maxlength="45" width="35" size="30" style="height:25px"></p>
+	<p class="dados tpp">Selecione o tipo de assunto:*</p>
+	<p class="dad "><select class="da selc" style="width:150px" name="assunto">
+	<option class="da">---------Selecione---------</option>
+	<option class="da">Suporte</option>
+	<option class="da">Produtos</option>
+	<option class="da">Cadastro</option>
+	<option class="da">Forma de Pagamento</option>
+	<option class="da">Outros Assuntos</option>
+	</select></p>
+	<p class="dados tpp">Telefone/Celular:*</p>
+	<p class="dados"><input class="da" type="tel" placeholder="  (xx)xxxxx-xxxx" maxlength="50" width="30" size="25" style="height:25px"  name="telefone"></p>
+	<p class="dados tpp">Mensagem:*</p>
+	<p class="dad"><textarea class="da" name="texto" rows="9" cols="55" placeholder="   Escreva uma mensagem..." maxlength="500"></textarea></p>
+	<p class="dad" id="rrr"><input id="cli" type="submit" name="enviar" value="Enviar" onclick="envio();">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input id="cli" type="reset" name="limpar" value="Limpar" onclick="limpar2();"></p>
+</form>
+</div>
+
+</div>
+	
+<div id="rodape">
+<div id="com">
+<h2 id="aten"><marquee id="yy" style="font-family: arial;" behavior="scroll" scrollamount="5">Qualquer problema pode entrar em contato pelo email abaixo ou pelas redes sociais, e também pode nos enviar pelo fale conosco e nos mande uma mensagem. Aguardamos:</marquee></h2>
+
+<figure id="res">
+	<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fleandro.cabeda&width=200&height=80&layout=standard&size=small&show_faces=true&appId" width="200" height="80" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	<a href="https://twitter.com/LeandroCabeda" target="_blank"><img src="../img/info17.jpg"></a>
+	<a href="https://br.linkedin.com/in/leandro-cabeda-rigo-b82b2678" target="_blank"><img src="../img/info18.jpg"></a>
+</figure>
+<h3 id="hh3">leandro.cabeda@hotmail.com</h3>
+<h4 class="av">@cabedainfomatica - Todos os direitos reservados</h4>
+<h4 class="av">Passo Fundo - RS</h4>
+	
+</div>
+	
+</div>
+
+</body>
+</html>
